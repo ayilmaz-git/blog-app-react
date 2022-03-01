@@ -8,7 +8,7 @@ import {addBlogToDatabase} from '../actions/blogs';
 const AddBlogPage = (props) => {
     return (
         <>
-             <div className="container">
+        <div className="container">
         <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
         <li className="breadcrumb-item" aria-current="page"><Link to="/blogs" activeClassName="active">Blogs</Link></li>
