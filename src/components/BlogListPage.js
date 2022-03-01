@@ -9,8 +9,8 @@ const BlogListPage = () => {
         <div className="container">
         <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
-        <li className="breadcrumb-item " aria-current="page"><Link to="/blogs" activeClassName="active" >Blogs</Link></li>
-        <li className="breadcrumb-item " aria-current="page"><Link to="/create" activeClassName="active">Create</Link></li>
+        <li className="breadcrumb-item" aria-current="page"><Link to="/blogs" activeClassName="active" >Blogs</Link></li>
+        <li className="breadcrumb-item" aria-current="page"><Link to="/create" activeClassName="active">Create</Link></li>
         </ol>
         </nav>
         </div>

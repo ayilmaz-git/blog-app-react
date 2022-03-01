@@ -8,7 +8,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             <div className="container">
             <Link to="/" className="navbar-brand">
-            <i className="fa-brands fa-react"></i> Reactjs Mini Blog
+            <i className="fa-brands fa-react"></i> Reactjs Blog
             </Link>
                 <button className='btn btn-light btn-sm' onClick={logout}>Çıkış</button>
 

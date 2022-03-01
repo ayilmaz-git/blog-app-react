@@ -18,7 +18,7 @@ const AddBlogPage = (props) => {
         </div>
        
         <div className="col=12 p-5">
-        <div className="jumbotron ">
+        <div className="jumbotron">
             <BlogForm onSubmit={(blog) => {
                 props.dispatch(addBlogToDatabase(blog));
                 props.history.push('/blogs');
