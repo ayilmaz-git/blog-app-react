@@ -5,7 +5,7 @@ const BlogListItem = ({ id,title }) => {
     return (
 
             <li className="list-group-item">
-               <i className="fa-brands fa-node-js"></i> <Link to= {`/blogs/${id}`}> {title}</Link> - - <i className="fa-solid fa-pen-to-square" style={{color: 'darkred'}}></i> <Link to= {`/edit/${id}`}>Düzenle</Link>
+              <h4 className='title'> <i className="fa-brands fa-node-js"></i> <Link to= {`/blogs/${id}`}> {title}</Link></h4> - - <i className="fa-solid fa-pen-to-square" style={{color: 'darkred'}}></i> <Link to= {`/edit/${id}`}>Düzenle</Link> {Date}
             </li>
     )
 }
